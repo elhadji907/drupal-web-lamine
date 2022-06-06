@@ -1,0 +1,49 @@
+uikit:
+  remote: https://getuikit.com/
+  version: 3.7.0
+  license:
+    name: MIT
+    url: https://github.com/uikit/uikit/blob/develop/LICENSE.md
+    gpl-compatible: true
+  css:
+#    base:
+#      //cdnjs.cloudflare.com/ajax/libs/uikit/3.7.0/css/uikit.min.css: { type: external, minified: true }
+  js:
+    //cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit.min.js: { type: external, minified: true }
+    //cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit-icons.min.js: { type: external, minified: true }
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+
+# less:
+#  base:
+#  version: 1.0
+#  less:
+#    base:
+#      css/foo.less: {}
+#    theme:
+#      includes/uikit/less/uikit.theme.less: { output: css/theme.css }
+#  css:
+#    theme:
+#      css/theme.css: {}
+#      css/style.css: {}
+
+global-style:
+    css:
+        theme:
+            css/theme.css: {}
+            css/style.css: {}
+
+fonts:
+  version: VERSION
+  remote: //fonts.googleapis.com/css
+  css:
+    theme:
+      //fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap": { type: external }
+      //fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap": { type: external }
+      //fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap": { type: external }
+  license:
+    name: SIL Open Font License, 1.1
+    url: //scripts.sil.org/OFL
+    gpl-compatible: true

@@ -16,10 +16,17 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/ajans": "^1.1",
+        "drupal/business": "9.1.x-dev@dev",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
-        "drupal/core-vendor-hardening": "^9.3"
+        "drupal/core-vendor-hardening": "^9.3",
+        "drupal/druadmin_lte_theme": "^3.0",
+        "drupal/drupal8_zymphonies_theme": "^2.0",
+        "drupal/firma": "^1.1",
+        "drupal/openy_carnation": "^2.0",
+        "drupal/sales_zymphonies_theme": "^2.0"
     },
     "conflict": {
         "drupal/drupal": "*"

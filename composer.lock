@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e917be022957b2d0e1848bfe7ac5f406",
+    "content-hash": "83eb00ee833568ea69f6ce8ca1acb533",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -530,8 +530,122 @@
             "time": "2020-10-27T21:46:55+00:00"
         },
         {
+            "name": "drupal/ajans",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ajans.git",
+                "reference": "1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ajans-1.1.2.zip",
+                "reference": "1.1.2",
+                "shasum": "83d447dd30a51cb919fe13d5b89f5335bef7495d"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.2",
+                    "datestamp": "1654250647",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Ashutosh Ahirwal",
+                    "homepage": "https://www.drupal.org/user/3703509"
+                },
+                {
+                    "name": "SeaserWeb",
+                    "homepage": "https://www.drupal.org/user/3359370"
+                }
+            ],
+            "description": "UIkit based Drupal theme",
+            "homepage": "https://www.drupal.org/project/ajans",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ajans"
+            }
+        },
+        {
+            "name": "drupal/business",
+            "version": "dev-9.1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/business.git",
+                "reference": "f064aec24bfadc2d8b5bc0a98f12880d67587468"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-9.1.x": "9.1.x-dev"
+                },
+                "drupal": {
+                    "version": "9.1.x-dev",
+                    "datestamp": "1644998093",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Gauravmahlawat",
+                    "homepage": "https://www.drupal.org/user/3643629"
+                },
+                {
+                    "name": "Sivaji_Ganesh_Jojodae",
+                    "homepage": "https://www.drupal.org/user/328724"
+                },
+                {
+                    "name": "devsaran",
+                    "homepage": "https://www.drupal.org/user/1031208"
+                },
+                {
+                    "name": "leopathu",
+                    "homepage": "https://www.drupal.org/user/2761363"
+                },
+                {
+                    "name": "mheinke",
+                    "homepage": "https://www.drupal.org/user/615306"
+                },
+                {
+                    "name": "tibezh",
+                    "homepage": "https://www.drupal.org/user/1491908"
+                }
+            ],
+            "description": "Business is a Responsive business Drupal 9 theme. Drupal 9 version Supported by <a href=\"https://www.drupal.org/u/gauravmahlawat\">Gaurav Mahlawat</a>.",
+            "homepage": "https://www.drupal.org/project/business",
+            "support": {
+                "source": "https://git.drupalcode.org/project/business"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "9.3.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core.git",
+                "reference": "c29310a4d08d5072d7f713da744c0831636b4779"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core/zipball/c29310a4d08d5072d7f713da744c0831636b4779",
@@ -782,16 +896,16 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core.git",
-                "reference": "c29310a4d08d5072d7f713da744c0831636b4779"
-            }
+            "description": "Drupal is an open source content management platform powering millions of websites and applications."
         },
         {
             "name": "drupal/core-composer-scaffold",
             "version": "9.3.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-composer-scaffold.git",
+                "reference": "a9dd9def8891e1c388719474720b57d3fe929a2f"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/a9dd9def8891e1c388719474720b57d3fe929a2f",
@@ -827,16 +941,16 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ],
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-composer-scaffold.git",
-                "reference": "a9dd9def8891e1c388719474720b57d3fe929a2f"
-            }
+            ]
         },
         {
             "name": "drupal/core-project-message",
             "version": "9.3.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-project-message.git",
+                "reference": "69664743736977676e11f824301ea3e925a712fc"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-project-message/zipball/69664743736977676e11f824301ea3e925a712fc",
@@ -863,16 +977,16 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ],
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-project-message.git",
-                "reference": "69664743736977676e11f824301ea3e925a712fc"
-            }
+            ]
         },
         {
             "name": "drupal/core-recommended",
             "version": "9.3.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-recommended.git",
+                "reference": "36b1d9dbe4f946b3c19fb91831aa1994e1e38782"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-recommended/zipball/36b1d9dbe4f946b3c19fb91831aa1994e1e38782",
@@ -944,16 +1058,16 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "36b1d9dbe4f946b3c19fb91831aa1994e1e38782"
-            }
+            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core."
         },
         {
             "name": "drupal/core-vendor-hardening",
             "version": "9.3.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-vendor-hardening.git",
+                "reference": "1c867b32b93200ef00840c5f153ae7750fa3ca7b"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-vendor-hardening/zipball/1c867b32b93200ef00840c5f153ae7750fa3ca7b",
@@ -980,11 +1094,275 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ],
+            ]
+        },
+        {
+            "name": "drupal/druadmin_lte_theme",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/drupal/core-vendor-hardening.git",
-                "reference": "1c867b32b93200ef00840c5f153ae7750fa3ca7b"
+                "url": "https://git.drupalcode.org/project/druadmin_lte_theme.git",
+                "reference": "8.x-3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/druadmin_lte_theme-8.x-3.0.zip",
+                "reference": "8.x-3.0",
+                "shasum": "8752b85f8dd06ae45e43796427681fb2b973a8e9"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.0",
+                    "datestamp": "1653146938",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "3ssom",
+                    "homepage": "https://www.drupal.org/user/758014"
+                },
+                {
+                    "name": "mhmd",
+                    "homepage": "https://www.drupal.org/user/1926104"
+                },
+                {
+                    "name": "nahedh",
+                    "homepage": "https://www.drupal.org/user/999456"
+                },
+                {
+                    "name": "shakercs",
+                    "homepage": "https://www.drupal.org/user/3426037"
+                }
+            ],
+            "description": "Drupal 8 admin theme based on AdminLTE by Almaseed Studio",
+            "homepage": "https://www.drupal.org/project/druadmin_lte_theme",
+            "support": {
+                "source": "https://git.drupalcode.org/project/druadmin_lte_theme"
+            }
+        },
+        {
+            "name": "drupal/drupal8_zymphonies_theme",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/drupal8_zymphonies_theme.git",
+                "reference": "2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/drupal8_zymphonies_theme-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "1bbcd1ab0d6144eb7fa3cb0e3f6676158e4c0b95"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.2",
+                    "datestamp": "1606280375",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "zymphonies-team",
+                    "homepage": "https://www.drupal.org/user/2280310"
+                }
+            ],
+            "description": "Designed & Developed by <a href=http://www.zymphonies.com>Zymphonies</a><br/>Contact us for any kind of Drupal services <a href=mailto:info@zymphonies.com>info@zymphonies.com</a>",
+            "homepage": "https://www.drupal.org/project/drupal8_zymphonies_theme",
+            "support": {
+                "source": "https://git.drupalcode.org/project/drupal8_zymphonies_theme"
+            }
+        },
+        {
+            "name": "drupal/firma",
+            "version": "1.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/firma.git",
+                "reference": "1.1.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/firma-1.1.13.zip",
+                "reference": "1.1.13",
+                "shasum": "af133d4c5a8d9847ddb00acfd662d250014f3728"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.13",
+                    "datestamp": "1653638004",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "SeaserWeb",
+                    "homepage": "https://www.drupal.org/user/3359370"
+                }
+            ],
+            "description": "UIkit based Drupal theme",
+            "homepage": "https://www.drupal.org/project/firma",
+            "support": {
+                "source": "https://git.drupalcode.org/project/firma"
+            }
+        },
+        {
+            "name": "drupal/openy_carnation",
+            "version": "2.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/openy_carnation.git",
+                "reference": "2.0.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/openy_carnation-2.0.8.zip",
+                "reference": "2.0.8",
+                "shasum": "c38d3851ccf7eac26f280acc761761f0d8d8d277"
+            },
+            "require": {
+                "drupal/core": ">=8"
+            },
+            "suggest": {
+                "ymcatwincities/openy-project": "It is recommended that this theme be used with the Open Y base project, otherwise you may run into missing dependency errors. See https://github.com/ymcatwincities/openy-project#installation for instructions on how to get started with Open Y."
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.8",
+                    "datestamp": "1653901532",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "AaronChristian",
+                    "homepage": "https://www.drupal.org/user/445890"
+                },
+                {
+                    "name": "Open-Y-Distro",
+                    "homepage": "https://www.drupal.org/user/3691415"
+                },
+                {
+                    "name": "andrii.tiupa",
+                    "homepage": "https://www.drupal.org/user/2932651"
+                },
+                {
+                    "name": "anpolimus",
+                    "homepage": "https://www.drupal.org/user/2284606"
+                },
+                {
+                    "name": "ddrozdik",
+                    "homepage": "https://www.drupal.org/user/574124"
+                },
+                {
+                    "name": "froboy",
+                    "homepage": "https://www.drupal.org/user/271282"
+                },
+                {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                },
+                {
+                    "name": "retif",
+                    "homepage": "https://www.drupal.org/user/2284780"
+                },
+                {
+                    "name": "shuklina",
+                    "homepage": "https://www.drupal.org/user/3533571"
+                }
+            ],
+            "description": "Carnation offers image-rich page layouts and simple, mobile-optimized menus.",
+            "homepage": "https://www.drupal.org/project/openy_carnation",
+            "support": {
+                "source": "https://git.drupalcode.org/project/openy_carnation",
+                "docs": "https://docs.openy.org",
+                "issues": "https://www.drupal.org/project/issues/openy_carnation"
+            }
+        },
+        {
+            "name": "drupal/sales_zymphonies_theme",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/sales_zymphonies_theme.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/sales_zymphonies_theme-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "84654248f53483346f701b12366218341b980048"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1594491618",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "zymphonies-team",
+                    "homepage": "https://www.drupal.org/user/2280310"
+                }
+            ],
+            "description": "Designed & Developed by <a href=http://www.zymphonies.com>Zymphonies</a><br/>Contact us for any kind of Drupal services <a href=mailto:info@zymphonies.com>info@zymphonies.com</a>",
+            "homepage": "https://www.drupal.org/project/sales_zymphonies_theme",
+            "support": {
+                "source": "https://git.drupalcode.org/project/sales_zymphonies_theme"
             }
         },
         {
@@ -4895,13 +5273,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/business": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "platform-overrides": {
-        "php": "7.3.0"
-    },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }

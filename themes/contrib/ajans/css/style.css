@@ -1,0 +1,166 @@
+.shadow {
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    position: relative;
+    z-index: 100;
+}
+
+.uk-logo {
+    color: #4232c2;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 500;
+}
+
+.uk-logo .first-word {
+    color: #212529;
+}
+
+.pricing .uk-card-secondary > *, .pricing .uk-card-secondary h2.uk-h5, .pricing-horizontal .uk-background-secondary, .pricing-horizontal .uk-background-secondary h5 {
+	color: #fff;
+}
+.pricing .uk-border-rounded {
+	border-radius: 15px;
+}
+
+.uk-navbar-toggle {
+    position: relative;
+    right: -119px;
+}
+
+.uk-card.a10 {
+    background-color: rgba(255,255,255,.1);
+}
+
+.uk-card.a10:hover {
+    background-color: rgba(255,255,255,.5);
+    transition: 1s;
+}
+
+.border-default {
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.hb {
+  background: rgb(239,239,253);
+  background: -moz-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+  background: -webkit-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+  background: linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeffd",endColorstr="#ffffff",GradientType=1);
+}
+
+#footer .block > * {
+    color: #f6f9fe;
+}
+
+.border { 
+    border: 1px solid #dee2e6;
+}
+
+#title-banner > * {
+    color: #fff;
+}
+
+#title-banner .uk-heading-divider:after {
+    left: 50%;
+    margin-left: -75px;
+    padding-top: 15px;
+}
+
+#title-banner button.uk-button-default {
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+
+#block-contactdetails .border {
+    border-radius: .25rem;
+}
+
+#services .uk-overlay  {
+    color: #fff;
+}
+
+#services .uk-overlay span  {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#services .uk-position-cover {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(255,255,255,1) 66.66%, rgba(255,255,255,0) 99.99%);
+    background-size: 300% 300%;
+    background-position: 0% 100%;
+    transition: .5s;
+}
+
+#services .uk-position-cover:hover {
+    background-position: 0% 0%;
+    transition: .5s;
+}
+
+#services .uk-subnav-pill a {
+    color: #fff;
+}
+
+#services .uk-subnav-pill a:hover {
+    color: #6266ea;
+}
+
+#greate * {
+    color: #fff;
+}
+
+#greate .uk-button {
+    background-color: #4322c2;
+}
+
+#recent .uk-position-cover {
+background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgba(97,84,199,1) 66.666%, rgba(255,255,255,0) 99.999%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  transition: .5s;
+  cursor: pointer;
+}
+
+#recent .uk-position-cover:hover {
+  background-position: 0% 0%;
+  transition: .5s;
+}
+
+#recent .uk-overlay {
+  color: #000;
+}
+#block-ajans-branding .site-branding__slogan {
+  text-align: right;
+  margin-top: -14px;
+  padding-right: 30px;
+}
+.uk-navbar-nav > li{
+  position: relative;
+}
+.uk-navbar-nav > li:hover .uk-navbar-dropdown{
+  display: block;
+}
+.uk-navbar-dropdown{
+  left: -45px;
+}
+.btn-main {
+  border: 1px solid #6266ea;
+  padding: 6px 20px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3px;
+  color: #6266ea;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-main:hover{
+  background-color: #6266ea;
+  color: #fff;
+  text-decoration: none;
+}

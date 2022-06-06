@@ -1,0 +1,128 @@
+<div class="uk-section uk-section-default uk-section-xsmall shadow" uk-sticky="show-on-up: true">
+	<div class="uk-container">
+		<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar="dropbar: true; dropbar-mode: push; mode: click; boundary-align: true; align: center">
+
+			{% if page.navbar_left %}
+				<div class="uk-navbar-left">
+					{{ page.navbar_left }}
+				</div>
+			{% endif %}
+
+			{% if page.navbar_center %}
+				<div class="uk-navbar-center">
+					{{ page.navbar_center }}
+				</div>
+			{% endif %}
+
+			<div class="uk-navbar-right uk-visible@m">
+				{% if page.navbar_right %}
+					{{ page.navbar_right }}
+				{% else %}
+					<div class="uk-flex uk-flex-middle uk-visible@m">
+						<a class="uk-icon-link uk-margin-right" uk-icon="forward"></a>
+						<a class="uk-icon-link uk-margin-right" uk-icon="cog"></a>
+						<a class="uk-icon-link uk-margin-right" uk-icon="user"></a>
+					</div>
+				{% endif %}
+			</div>
+		</nav>
+		<div class="uk-navbar-dropbar"></div>
+	</div>
+</div>
+
+{% if node.body.summary %}
+	<div class="uk-section uk-section-default" style="background-image: url({{ file_url(node.field_image.entity.fileuri) }})">
+		<div class="uk-container">
+			{{ node.body.summary|raw }}
+		</div>
+	</div>
+{% endif %}
+
+{% if page.content_top %}
+	{{ page.content_top }}
+{% endif %}
+
+<div class="uk-section uk-section-default">
+	<div class="uk-container">
+
+		<div class="uk-margin-bottom" uk-grid>
+			{% if page.sidebar_first %}
+				<div class="uk-width-1-4@m">
+					{{ page.sidebar_first }}
+				</div>
+			{% endif %}
+
+			<!--- Start Content -->
+			{% if page.content %}
+				<div class="main-content uk-width-expand">
+					{{ page.content }}
+				</div>
+			{% endif %}
+			<!-- End: Content -->
+		</div>
+	</div>
+
+
+	{% if page.content_bottom %}
+		{{ page.content_bottom }}
+	{% endif %}
+
+
+	{% if page.footer %}
+		<div id="footer" class="uk-section uk-section-secondary uk-section-small">
+			<div class="uk-container">
+				<div class="uk-child-width-expand" uk-grid>
+					{% if show_about_block %}
+						<div class="uk-width-1-4">
+							<div class="uk-panel block">
+								<div class="uk-flex-middle">
+									<span class="uk-margin-small-right uk-icon" uk-icon="icon: nut; ratio: 2"></span>
+									<span class="first-word uk-h4 uk-text-light">{{ site_name }}</span>
+								</div>
+								<p class="uk-margin">
+									{{- about_us|render|striptags[:150] ~ '...' -}}
+								</p>
+								<ul class="uk-child-width-auto uk-grid" uk-grid="">
+									<li class="uk-first-column">
+										<a class="uk-icon-button uk-icon" target="_blank" href="{{ facebook_url}}" uk-icon="facebook">
+										</svg></a>
+									</li>
+									<li>
+										<a class="uk-icon-button uk-icon" target="_blank" href="{{ linkedin_url}}" uk-icon="linkedin"></a>
+									</li>
+
+									<li>
+										<a class="uk-icon-button uk-icon" target="_blank" href="{{ whatsup_url }}" uk-icon="whatsapp"></a>
+									</li>
+									<li>
+										<a class="uk-icon-button uk-icon" target="_blank" href="{{ youtube_url }}" uk-icon="youtube"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					{% endif %}
+					{{ page.footer }}
+					{% if show_contact_block %}
+						<div class="uk-width-1-4">
+							<div class="uk-panel block">
+								<h3 class="uk-h4 uk-text-light uk-margin-bottom">{{ contact_title }}</h3>
+
+								<ul class="uk-list">
+									<li><span class="uk-margin-small-right uk-icon" uk-icon="receiver"></span>{{ phone }}</li>
+									<li><span class="uk-margin-small-right uk-icon" uk-icon="mail"></span>{{ email }}</li>
+								</ul>
+							</div>
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	{% endif %}
+
+	{% if page.footer_bottom %}
+		<div class="uk-section uk-section-primary uk-section-small">
+			<div class="uk-container">
+				{{ page.footer_bottom }}
+			</div>
+		</div>
+	{% endif %}

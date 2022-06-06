@@ -1,0 +1,39 @@
+name: Ajans
+type: theme
+description: 'UIkit based Drupal theme'
+package: core
+base theme: false
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+# libraries
+libraries:
+  - ajans/uikit
+  - ajans/global-style
+  - ajans/fonts
+
+# Regions
+regions:
+
+  navbar_left: 'Navbar Left'
+  navbar_center: 'Navbar Center'
+  navbar_right: 'Navbar Right'
+
+  content_top: 'Content Top'
+
+  highlighted: 'Highlighted' 
+
+  content: 'Content'
+
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  content_bottom: 'Content Bottom'
+  footer: 'Footer'
+  footer_bottom: 'Footer Bottom'
+
+  auto_hidden_block: 'Auto hidden blocks'
+
+# Information added by Drupal.org packaging script on 2022-06-03
+version: '1.1.2'
+project: 'ajans'
+datestamp: 1654250650

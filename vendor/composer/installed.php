@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '9.3.15',
-        'version' => '9.3.15.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '3f7ca909d479cc8d60170cef4736983c8086d132',
+        'reference' => '3d6630e29be2a6dbc8822e6b920972f1c0257527',
         'name' => 'drupal/legacy-project',
-        'dev' => false,
+        'dev' => true,
     ),
     'versions' => array(
         'asm89/stack-cors' => array(
@@ -76,6 +76,15 @@
                 0 => '9.3.15',
             ),
         ),
+        'drupal/ajans' => array(
+            'pretty_version' => '1.1.2',
+            'version' => '1.1.2.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../themes/contrib/ajans',
+            'aliases' => array(),
+            'reference' => '1.1.2',
+            'dev_requirement' => false,
+        ),
         'drupal/automated_cron' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -129,6 +138,17 @@
             'replaced' => array(
                 0 => '9.3.15',
             ),
+        ),
+        'drupal/business' => array(
+            'pretty_version' => 'dev-9.1.x',
+            'version' => 'dev-9.1.x',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../themes/contrib/business',
+            'aliases' => array(
+                0 => '9.1.x-dev',
+            ),
+            'reference' => 'f064aec24bfadc2d8b5bc0a98f12880d67587468',
+            'dev_requirement' => false,
         ),
         'drupal/ckeditor' => array(
             'dev_requirement' => false,
@@ -415,6 +435,24 @@
                 0 => '9.3.15',
             ),
         ),
+        'drupal/druadmin_lte_theme' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../themes/contrib/druadmin_lte_theme',
+            'aliases' => array(),
+            'reference' => '8.x-3.0',
+            'dev_requirement' => false,
+        ),
+        'drupal/drupal8_zymphonies_theme' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../themes/contrib/drupal8_zymphonies_theme',
+            'aliases' => array(),
+            'reference' => '2.0.2',
+            'dev_requirement' => false,
+        ),
         'drupal/dynamic_page_cache' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -462,6 +500,15 @@
             'replaced' => array(
                 0 => '9.3.15',
             ),
+        ),
+        'drupal/firma' => array(
+            'pretty_version' => '1.1.13',
+            'version' => '1.1.13.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../themes/contrib/firma',
+            'aliases' => array(),
+            'reference' => '1.1.13',
+            'dev_requirement' => false,
         ),
         'drupal/forum' => array(
             'dev_requirement' => false,
@@ -530,12 +577,12 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '9.3.15',
-            'version' => '9.3.15.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '3f7ca909d479cc8d60170cef4736983c8086d132',
+            'reference' => '3d6630e29be2a6dbc8822e6b920972f1c0257527',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -616,6 +663,15 @@
                 0 => '9.3.15',
             ),
         ),
+        'drupal/openy_carnation' => array(
+            'pretty_version' => '2.0.8',
+            'version' => '2.0.8.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../themes/contrib/openy_carnation',
+            'aliases' => array(),
+            'reference' => '2.0.8',
+            'dev_requirement' => false,
+        ),
         'drupal/options' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -663,6 +719,15 @@
             'replaced' => array(
                 0 => '9.3.15',
             ),
+        ),
+        'drupal/sales_zymphonies_theme' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../themes/contrib/sales_zymphonies_theme',
+            'aliases' => array(),
+            'reference' => '2.0.1',
+            'dev_requirement' => false,
         ),
         'drupal/search' => array(
             'dev_requirement' => false,
